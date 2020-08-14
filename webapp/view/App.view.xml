@@ -1,0 +1,23 @@
+<mvc:View controllerName="DB.DialogBox.controller.App" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="Dialog-Box">
+					<content>
+						
+      <Button
+         id="helloDialogButton"
+         text="Press Me"
+         press="onOpenDialog"
+         class="sapUiSmallMarginEnd" />
+
+      <FormattedText
+         htmlText="Hello {/recipient/name}"
+         class="sapUiSmallMargin sapThemeHighlight-asColor myCustomText"/>
+      
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
